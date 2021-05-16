@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(235, 238, 245);   /*similar to facebook page background color */
+}
+
+.main-container{
+    display: flex;
+    margin-top: 8em;
+    margin-left: 21em;
+}
+
+
+.facebook-logo-description{
+    padding: 50px 10px 50px;
+}
+
+.img-facebook{
+    height: 130px;
+}
+
+
+.description{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.featured-login{
+    background-color: white;
+    height: 25em;
+    width: 25em;
+    margin-left: 11em;
+    padding: 10px 0 0 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(179, 173, 173);
+
+}
+
+form{
+    background: white;
+}
+
+form div{ 
+    background-color: white;
+}
+
+.credentials div{
+    background-color: white;
+}
+
+.email-input, .password{
+    width: 330px;
+    margin: 10px;
+    padding: 20px 20px;
+    font-size: medium;
+    display: grid;
+    border:1px solid rgb(212, 205, 205);
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 20px;
+    background: white;
+}
+
+.email-input:active, 
+.password:active
+.email-input:hover, 
+.password:hover{
+    border: 1px solid blue;
+    outline: 1px solid blue;
+}
+
+.btn-login{
+    width: 330px;
+    margin: 10px;
+    padding: 8px 65px;
+    font-size: 22px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background: #1877F2;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-login:hover{
+    cursor: pointer;
+    background: #0366e7;
+}
+
+.forget-password{
+    margin-left: 7em;
+}
+
+.forget-password a{
+
+    background-color: white;
+    text-decoration: none;    /* underline below the text is removed due to this text decoration set to none. */
+    color: blue;
+
+}
+
+.forget-password a:hover{
+    text-decoration: underline;
+}
+
+.diff-line{
+    margin: 10px;
+    color: rgb(199, 196, 196);
+    background: white;
+
+}
+
+
+.create-new-account{
+    margin: 20px;
+    margin-left: 65px;
+    padding: 20px 34px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #43B72A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.create-new-account:hover{
+    background-color: #369620;
+}
+
+
+.celeb-page a{
+    background: white;
+}
